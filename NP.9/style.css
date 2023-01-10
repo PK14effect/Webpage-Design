@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(10,10,10,0.5),rgba(10,10,10,0.5)), url(https://i0.wp.com/ufabet-esport.com/wp-content/uploads/2021/10/10-ROV-Valhein-UFA.jpg?fit=1921%2C1189&ssl=1);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.logo {
+    width: 400px;
+    margin: 20px 0;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+nav {
+    width: 100%;
+    padding: 20px;
+    background-color: #000;
+    
+    
+}
+nav ul li {
+    display: inline;
+    padding-left: 50px;
+    
+    
+    
+}
+nav ul li a {
+    font-size: 30px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
