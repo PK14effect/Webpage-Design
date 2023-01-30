@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    background-color: #7E1E80;
+}
+.box {
+    background:linear-gradient(45deg,#50006C,#341948) ;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    scroll-snap-align: start;
+    font-family: 'Signika Negative', sans-serif;
+}
+.box1 {
+    background-color: #F5F5E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 200px;
+    border-radius: 15px;
+}
+.box2 {
+    background-color: #F5F5E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 200px;
+    border-radius: 15px;
+}
+.box3 {
+    background-color: #F5F5E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 70px 200px;
+    border-radius: 15px;
+}
+.box4 {
+    background-color: #F5F5E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 250px;
+    border-radius: 15px;
+}
+.box5 {
+    background-color: #F5F5E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 250px;
+    border-radius: 15px;
+}
+.box6 {
+    background-color: #F5F5E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 120px 250px;
+    border-radius: 15px;
+}
+.box7 {
+    background-color: #F5F5E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 150px 200px;
+    border-radius: 15px;
+}
+.box8 {
+    background-color: #F5F5E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 130px 150px;
+    border-radius: 15px;
+}
+.box9 {
+    background-color: #F5F5E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 250px;
+    border-radius: 15px;
+}
+.box0 {
+    background-color: #0F1110;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.box0 h1{
+    font-size: 100px;
+    font-weight: 1000;
+    -webkit-text-stroke: 4px #7E1E80;
+    color: #C55FFC;
+}
+.box0 h2 {
+    font-size: 60px;
+    color: #7E1E80;
+}
+.box img {
+    width: 300px;
+}
+.box .im1 {
+    width: 200px;
+}
+.box .im2 {
+    width: 200px;
+    border-radius: 10px;
+}
+.box .im3 {
+    width: 400px;
+    border-radius: 10px;
+}
+.box h1 {
+    max-width: 500px;
+    margin-right: 50px;
+}
+.box h1 p {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 750px) {
+    .box0 h1 {
+        font-size: 30px;
+    }  
+    .box0 h2 {
+        font-size: 20px;
+    }
+    .box-M {
+        flex-direction: column;
+    }
+    .box-M h1 {
+        font-size: 20px;
+        margin: 0;
+        max-width: 350px;
+        margin-bottom: 20px;
+    }
+    .box-M h1 p {
+        font-size: 15px;
+    }
+    .box .im1 {
+        width: 150px;
+    }
+    .box .im2 {
+        width: 200px;
+        height: 250px;
+    }
+    .box .im3 {
+        width: 350px;
+    }
+    .box1 {
+        padding: 110px 10px;
+    }
+    .box2 {
+        padding: 100px 10px;
+    }
+    .box3 {
+        padding: 120px 10px;
+    }
+    .box4 {
+        padding: 140px 10px;
+    }
+    .box5 {
+        padding: 150px 10px;
+    }
+    .box6 {
+        padding: 200px 10px;
+    }
+    .box7 {
+        padding: 200px 10px;
+    }
+    .box8 {
+        padding: 180px 10px;
+    }
+    .box9 {
+        padding: 180px 10px;
+    }
+    .M1 {
+        padding: 100px 10px;
+    }
+    .M2 {
+        padding: 140px 10px;
+    }
+    .M3 {
+        padding: 160px 10px;
+    }
+}
